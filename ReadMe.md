@@ -70,7 +70,7 @@ This Raj Infra Pvt.Ltd website and all associated content (code, design, images,
 
 You MAY NOT:
 
-- Copy, reproduce, distribute, or modify any part of this website without explicit written permission from Prince Sharma.
+- Copy, reproduce, distribute, or modify any part of this website without explicit written permission from Raj Sharma.
 - Use this work for commercial purposes without authorization.
 - Claim ownership or redistribute this content as your own.
 
@@ -86,4 +86,5 @@ Designer & Developer :
 
 Name - Raj Sharma  
 Email: hellojavos@gmail.com  
+
 Website: 
