@@ -77,7 +77,7 @@ You MAY NOT:
 You MAY:
 
 - View and study the code and design for learning purposes only.
-- Use the portfolio as inspiration with proper credit given.
+- Use this as inspiration with proper credit given.
 - You can ask for the media files ( images,video,icons) used in it
 
 For permissions, licensing, or collaborations, please contact:
@@ -88,3 +88,4 @@ Name - Raj Sharma
 Email: hellojavos@gmail.com  
 
 Website: 
+
