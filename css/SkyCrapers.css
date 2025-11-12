@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('/images/container1.jpg');
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #1d354d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins';
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-family: 'Poppins';
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+   .btn {
+     width: 80px;
+     background-color: orangered;
+     height: 30px;
+     font-family: 'Poppins';
+     font-weight: bold;
+     
+   }
+   .btn:hover {
+      background-color: brown;
+      width: 90px;
+   }
+ 
+  /* Building Container */
+  .building-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 15px; /* Adding a gap between cards */
+  }
+  
+  .building-card {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    background-color: rgb(250, 190, 190);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .building-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .building-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0 10px;
+  }
+  
+  .building-card p {
+    font-size: 1em;
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  .building-card a {
+    text-decoration: none;
+  }
+  
+  /* Hover effect for each building card */
+  .building-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* For tablets (portrait mode, 600px to 768px) */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  
+    .building-container {
+      justify-content: center; /* Center the building cards */
+    }
+  
+    .building-card {
+      width: 45%; /* Reduce the width for better alignment on tablets */
+    }
+  
+    footer p {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* For mobile devices (up to 600px) */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  
+    .building-container {
+      justify-content: center; /* Center the building cards */
+      gap: 10px; /* Reduce the gap between cards */
+    }
+  
+    .building-card {
+      width: 100%; /* Take full width on small screens */
+      margin: 10px 0; /* Add some space between cards */
+    }
+  
+    footer p {
+      font-size: 0.8em;
+    }
+  }
+  
